@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
 import { useEffect, useState } from 'react';
-import { useWallet } from '../wallets/wallet-selector';
+
 import NearLogo from 'public/near-logo.svg';
+import { useWallet } from '@/wallets/wallet-selector';
 
 export const Navigation = () => {
 

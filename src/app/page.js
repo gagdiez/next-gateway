@@ -1,4 +1,3 @@
-'use local'
 import Image from 'next/image'
 import styles from './app.module.css'
 import { DocsCard, HelloComponentsCard, HelloNearCard } from '@/components/cards'
